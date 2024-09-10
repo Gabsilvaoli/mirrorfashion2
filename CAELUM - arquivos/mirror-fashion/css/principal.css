@@ -85,6 +85,9 @@ padding-bottom: 10px;
 }
 .destaque	{
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 .painel li	{
     display:	inline-block;
@@ -207,4 +210,7 @@ p:first-letter	{
 .mais-vendidos	{
     background: #dcdcf5;
     background:	linear-gradient(#dcdcf5,	#f4bebe);
+}
+.painel li:hover	{
+    transform:	scale(1.2)	rotate(-5deg);
 }
